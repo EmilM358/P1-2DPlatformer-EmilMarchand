@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // --------- Physics Approach ---------
     // I chose to go the Rigidbody2D with velocity manipulation route because it is the one I'm most familiar with.
     // Since this is for an assignment, I want to do well, so it is better not to experiment too much, in my opinion. 
 

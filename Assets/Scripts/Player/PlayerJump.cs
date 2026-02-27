@@ -17,6 +17,7 @@ public class PlayerJump : MonoBehaviour
     bool isJumpReleased = false;
     bool isJumpHeld = false;
 
+    // --------- Ground Detection Method ---------
     // I tried both the OverlapCircle and Raycast but had trouble with edge detection.
     // My jump felt weak when I was too close to the edge of a platform.
     // I used a Boxcast for the game I made for Salim's class but that wasn't one of the options so I opted not to use it.
@@ -26,6 +27,7 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField] private LayerMask groundLayer; 
 
+    // --------- Advanced Jump Mechanic ---------
     // I chose Coyote Time because I asked myself which one I'd rather have if given the choice
     // between it and jump buffering. I thought it would make for a better experience.
 
